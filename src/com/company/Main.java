@@ -7,7 +7,8 @@ public class Main {
         add(2,3);
     }
     public static void add(int a, int b){
-        System.out.println("adding integers");
+        int c = a + b;
+        System.out.println("adding the integers " + a + " and " + b + "to get the result: " + c);
 
     }
 }
